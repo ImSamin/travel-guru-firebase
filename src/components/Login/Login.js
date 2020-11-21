@@ -145,6 +145,7 @@ const Login = () => {
 
   const handleNewUser = () => {
     setNewUser(!newUser)
+    user.success = false;
   };
 
   const updateUserInfo = name => {
@@ -168,7 +169,7 @@ const Login = () => {
     <div className="">
       <p style={{ textAlign: 'center', color: 'red' }}>{user.error}</p>
       {
-        user.success && <p style={{ textAlign: 'center', color: 'green' }}>Logged in successfully</p>
+        user.success &&  <p style={{ textAlign: 'center', color: 'green' }}>User Created Successfully</p>
       }
       <div className="form d-flex align-items-center justify-content-center" >
         <div className=" login-form  tg-form"  >
