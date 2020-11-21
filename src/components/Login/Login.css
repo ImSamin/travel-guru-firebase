@@ -36,13 +36,12 @@
   border-bottom: 1px solid #c5c5c5;
 }
 
-.input.form-control {
+.input-text.form-control {
   padding: 20px 20px 20px 20px;
   height: 50px;
   border: none;
-}
+  background: none;
 
-.input.form-control {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -50,6 +49,8 @@
   line-height: 20px;
   color: #000000;
 }
+
+
 
 .bottom-form {
   padding-top: 20px;

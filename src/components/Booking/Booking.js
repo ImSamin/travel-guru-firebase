@@ -23,7 +23,7 @@ const Booking = () => {
                   <label>Origin</label>
                   <input
                     type="text"
-                    className="form-control"
+                    className="booking-input form-control"
                     placeholder="e.g Dhaka"
                   />
                 </div>
@@ -31,19 +31,19 @@ const Booking = () => {
                   <label>Destination</label>
                   <input
                     type="text"
-                    className="form-control"
-                    placeholder="e.g "
+                    className="booking-input form-control"
+                    placeholder=""
                     defaultValue={title}
                   />
                 </div>
                 <div className="form-group row booking-date">
                   <div className="col-6">
                     <label htmlFor="date-input">From</label>
-                    <input className="form-control" type="date" id="dateFrom" />
+                    <input className="booking-input form-control" type="date" id="dateFrom" />
                   </div>
                   <div className="col-6">
                     <label htmlFor="dateTo">To</label>
-                    <input className="form-control" type="date" id="dateTo" />
+                    <input className="booking-input form-control" type="date" id="dateTo" />
                   </div>
                 </div>
                 <Link to="/destination">

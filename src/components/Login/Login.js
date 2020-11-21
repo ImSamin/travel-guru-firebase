@@ -177,7 +177,7 @@ const Login = () => {
               {!newUser ? <h1 > Login </h1> : <h1>Sign up</h1>}
 
               {newUser && <div className="input-field" >
-                <input className="input form-control"
+                <input className="input-text form-control"
                   onBlur={handleInputField}
                   type="text"
                   name="name"
@@ -186,7 +186,7 @@ const Login = () => {
               </div>}
 
               <div className="input-field" >
-                <input className="input form-control"
+                <input className=" input-text form-control"
                   onBlur={handleInputField}
                   type="text"
                   name="email"
@@ -195,7 +195,7 @@ const Login = () => {
               </div>
 
               <div className="input-field " >
-                <input className=" input form-control"
+                <input className=" input-text form-control"
                   onBlur={handleInputField}
                   type="password"
                   name="password"
