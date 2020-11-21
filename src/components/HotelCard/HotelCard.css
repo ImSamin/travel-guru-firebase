@@ -1,0 +1,23 @@
+.hotel-card .info h4 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: #000;
+    margin-bottom: 1em;
+    
+}
+
+.hotel-card .info p:not(.ratings) {
+	font-size: 16px;
+	line-height: 20px;
+	color: #6a6a6a;
+	margin-bottom: 10px;
+}
+
+.hotel-card .info .ratings {
+	margin-bottom: 0;
+}
+
+.hotel-card .info .ratings > * {
+	margin-right: 24px;
+}

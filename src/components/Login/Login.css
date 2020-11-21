@@ -1,0 +1,130 @@
+.form {
+  height: 100vh;
+}
+
+.tg-form {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+
+.tg-form {
+  position: relative;
+  width: 570px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ababab;
+  /* box-sizing: border-box; */
+  border-radius: 4px;
+  padding: 20px 20px 20px 20px;
+}
+
+.tg-form h1 {
+  position: relative;
+  height: 29px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.input-field {
+  padding-top: 30px;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.input.form-control {
+  padding: 20px 20px 20px 20px;
+  height: 50px;
+  border: none;
+}
+
+.input.form-control {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.bottom-form {
+  padding-top: 20px;
+}
+
+.forget-link {
+  color: #f9a51a;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.forget-link:hover {
+}
+
+.button {
+  padding-top: 20px;
+}
+.btn.btn-warning.tg-primary {
+  align-items: center;
+
+  width: 100%;
+  height: 50px;
+
+  background: #f9a51a;
+}
+
+.btn-ca.btn {
+  color: #f9a51a;
+  text-align: left;
+}
+
+.btn-ca.btn:hover {
+  text-decoration: underline;
+  color: #f9a51a;
+}
+
+.btn.btn-ca:focus {
+  box-shadow: none;
+}
+
+
+.otherOptin {
+  margin-top: 20px;
+  display: grid;
+}
+
+.btnsingIn{
+    margin-top: 20px
+}
+
+
+.btn.btnsingIn {
+  width: 461px;
+  height: 51px;
+  text-align: center;
+  float: left;
+  justify-items: baseline;
+}
+
+.btn-secondary.btnsingIn {
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+  border-radius: 57px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.icon{
+    margin-right: 5px;
+}
