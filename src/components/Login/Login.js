@@ -106,6 +106,7 @@ const Login = () => {
           setUser(newUserInfo);
           updateUserInfo(user.name);
           history.push("/login")
+          console.log(res);
         })
         .catch(error => {
           const newUserInfo = { ...user }
@@ -132,6 +133,7 @@ const Login = () => {
           setUser(signInUser);
           setLoggedInUser(signInUser);
           history.replace(from);
+          console.log(res);
         })
         .catch(error => {
           const newUserInfo = { ...user }
