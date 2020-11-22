@@ -12,6 +12,6 @@
 -   Bootstrap
 -   React Router
 -   Context API
--   Google Map
 -   Firebase Authentication
--   Heroku
+-   Firebase Hosting
+
